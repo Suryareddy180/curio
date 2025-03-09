@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2 class="text-center mb-4">🔍 ＣＵＲＩＯ 🤖</h2>
+<p class="text-center text-muted">Hello! I am CURIO. How may I assist you ?</p>
+
+<form method="POST" class="mb-3">
+    {% csrf_token %}
+    <div class="input-group">
+        <input type="text" name="user_input" class="form-control" placeholder="Ask me anything..." required>
+        <button type="submit" class="btn btn-custom">Send</button>
+    </div>
+</form>
+
+<div class="chat-container">
+    <div class="chat-message bg-secondary text-white p-3">{{ user_input }}</div>
+    <div class="chat-message bg-secondary text-white p-3">{{ bot_response }}</div>
+</div>
+
+<p class="text-center text-muted small mt-4">&copy; 2025 CURIO. All rights reserved by SURYA</p>
+{% endblock %}
