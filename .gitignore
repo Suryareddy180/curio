@@ -81,3 +81,8 @@ media/
 staticfiles/
 >>>>>>> a616592 (Added .gitignore to ignore unnecessary files)
 >>>>>>> f2eadf8 (Resolved merge conflicts)
+
+# Ignore collected static files
+staticfiles/
+
+
