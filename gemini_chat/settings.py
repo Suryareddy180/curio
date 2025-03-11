@@ -16,7 +16,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+SECRET_KEY = os.getenv('SECRET_KEY')
+GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
+DEBUG = os.getenv('DEBUG', 'False') == 'True'
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -31,7 +33,8 @@ SECRET_KEY = 'django-insecure-ty)u8#%3j%1kui30=si&%9i05c0t$-+(p-9ym+5y(#$sje85!c
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['curio.onrender.com']
+
 
 
 # Application definition
