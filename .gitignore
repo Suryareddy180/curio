@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# Django secret settings
+*.sqlite3
+*.log
+.env
+
+# Ignore Django migrations
+**/migrations/*
+/e/CURIO/gemini_chat*/migrations/__init__.py
+
+# VS Code & JetBrains IDE settings
+.vscode/
+.idea/
+
+# Ignore media and static files (optional)
+media/
+staticfiles/
