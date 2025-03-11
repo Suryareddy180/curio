@@ -33,7 +33,9 @@ SECRET_KEY = 'django-insecure-ty)u8#%3j%1kui30=si&%9i05c0t$-+(p-9ym+5y(#$sje85!c
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['curio.onrender.com']
+ALLOWED_HOSTS = ['curio-h1mn.onrender.com', 'localhost', '127.0.0.1']
+
+
 
 
 
