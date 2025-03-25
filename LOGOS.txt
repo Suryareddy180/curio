@@ -1,0 +1,33 @@
+LOGOS
+1.Linked In
+2. Angel One
+3.Deep Seek
+4.KreditBee
+5.Bhim(money)
+6.Icici(bank)
+7.Swamyam Nptel
+8.Zedge(wallpapers)
+9.Way to News
+10.Rapido
+11.Digilocker
+12.Microsoft Aunthenticator
+13.Lenskart
+14.Discord
+15.VolksWagen
+16.Renault(car)
+17.Royal enfield
+18.Skype
+19.MX player
+20.jio Hotstar(new)
+21.Google aunthenticator
+22.Find device
+23.Outlook
+24.Characterai(c.ai)
+25.Jio tv
+26.Titan
+27.Gucci
+28.Ola
+29.Wps office
+30.Cricheros
+
+
